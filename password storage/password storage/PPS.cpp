@@ -49,7 +49,7 @@ PPS::PPS() {
 
 		if (login()) {
 			while (choice != 4) {
-				cout << "would you like to\n1.enter new Passwords\n2.search for a password\n3.view all passwords\n4.Exit\nEnter choice:";
+				cout << "\nwould you like to\n1.enter new Passwords\n2.search for a password\n3.view all passwords\n4.Exit\nEnter choice:";
 				cin >> choice;
 				if (choice == 1) {
 					input_set();
